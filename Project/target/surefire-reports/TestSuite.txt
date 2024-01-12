@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 32.064 s <<< FAILURE! - in TestSuite
-beforeMethod(runner.Testcase2)  Time elapsed: 11.699 s  <<< FAILURE!
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 32 s <<< FAILURE! - in TestSuite
+beforeMethod(runner.Testcase2)  Time elapsed: 11.819 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: 'dfeeafdd43669ddccabcceedbdcone-0', ip: '10.224.0.150'
@@ -17,7 +17,7 @@ Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection t
 Caused by: java.net.ConnectException: connection timed out: /34.85.201.58:4478
 Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /34.85.201.58:4478
 
-beforeMethod(runner.Testcase3)  Time elapsed: 10.021 s  <<< FAILURE!
+beforeMethod(runner.Testcase3)  Time elapsed: 10.011 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: 'dfeeafdd43669ddccabcceedbdcone-0', ip: '10.224.0.150'
@@ -32,7 +32,7 @@ Caused by: java.io.UncheckedIOException: java.net.ConnectException: connection t
 Caused by: java.net.ConnectException: connection timed out: /34.85.201.58:4478
 Caused by: io.netty.channel.ConnectTimeoutException: connection timed out: /34.85.201.58:4478
 
-beforeMethod(runner.Testcase1)  Time elapsed: 10.02 s  <<< FAILURE!
+beforeMethod(runner.Testcase1)  Time elapsed: 10.018 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
 Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: 'dfeeafdd43669ddccabcceedbdcone-0', ip: '10.224.0.150'
